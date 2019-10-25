@@ -1,5 +1,5 @@
 label{
-    display: inline-block;
+    display: flex;
     font-size: 0.9em;
     font-weight: bold ;
     width: 90px;
