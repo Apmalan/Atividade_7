@@ -3,6 +3,7 @@ label{
     font-size: 0.9em;
     font-weight: bold ;
     width: 90px;
+    float: left;
 }
 
 input, textarea{
@@ -15,8 +16,8 @@ input, textarea{
     }
 
     input, textarea{
-        border: 1pxsolid#CCC;
-        box-shadow: inset2px 2px 2px #EEE;
+        border: 1px solid#CCC;
+        box-shadow: inset 2px 2px 2px #EEE;
         font-size: 0.9em;
         padding: 2px 5px;
     }
@@ -24,23 +25,25 @@ input, textarea{
     .hint{
         background-color: #FFFBE4;
         border-radius: 3px;
-        border: 1pxsolid#CCC;
-        box-shadow: 1px 1px 3pxrgba(0,0,0,0.2);
+        border: 1px solid#CCC;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
         display: inline-block;
-        font-size: 0.8em;margin-left: 20px;padding: 3px;
+        font-size: 0.8em;
+        margin-left: 20px;
+        padding: 3px;
     }
 
     .hint{
         display: none;
     }
-    input:focus+ .hint,textarea:focus+ .hint
-    {
+    input:focus + .hint, textarea:focus + .hint{
         display: inline-block;
     }
         
     .error{
-        color: red;display: block;
-        font-size: 0.8em;font-style: italic;
+        color: red;
+        display: block;
+        font-size: 0.8em;
+        font-style: italic;
         margin: 5px 0 0 90px;
     }
-    
